@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Моя перша HTML-форма!</h1>
+    <form method="GET" action="https://httpbin.org/get" autocomplete="on">
+      <div class="field">
+        <label for="name_id" class="label-name">Ім'я:</label>
+        <input type="text" id="name_id" name="name" />
+      </div>
+      <div class="field">
+        <label for="dob" class="label-dob">Дата народження:</label>
+        <input type="date" id="dob" name="dob" />
+      </div>
+      <div class="field">
+        <label for="email_id" class="label-email">Імейл:</label>
+        <input type="email" id="email_id" name="email" />
+      </div>
+      <div class="field">
+        <label for="msg_id">Повідомлення:</label>
+        <textarea id="okak" name="okak"></textarea>
+      </div>
+      <div class="buttons">
+        <button type="submit">Надіслати</button>
+        <button type="reset">Очистити</button>
+      </div>
+      <div class="field">
+        <label class="label-drinks">Ваші улюблені напої:</label>
+        <div class="options">
+          <label>
+            <div><input type="checkbox" name="drink" value="Кава" /> Енергетик</label></div>
+          <label> 
+            <div><input type="checkbox" name="drink" value="Чай" /> Кава</label></div>
+          <label> 
+            <div><input type="checkbox" name="drink" value="Сік" /> Пиво</label></div>
+          <label>
+            <input type="checkbox" name="drink" value="Вода" /> Живчик</label>
+        </div>
+      </div>
+      <div class="field">
+        <label class="label-nation">Моя національність:</label>
+        <div class="options">
+          <label>
+            <div><input type="radio" name="nation" value="Українець" required /> Українець</label></div>
+          <label>
+            <div><input type="radio" name="nation" value="Поляк" /> Поляк</label></div>
+          <label>
+            <div><input type="radio" name="nation" value="Турок" /> Турок</label></div>
+          <label>
+            <div><input type="radio" name="nation" value="Казах" />Казах</label></div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button type="submit">Надіслати</button>
+        <button type="reset">Очистити</button>
+      </div>
+    </form>
+    <picture>
+      <source media="(max-width: 468px)" srcset="https://picsum.photos/300/500">
+      <source media="(min-width: 469px)" srcset="https://picsum.photos/1000/400">
+      <img src="https://picsum.photos/800/400" alt="Дкмонстраційне зображення">
+    </picture>
+    </body>
+</html>
