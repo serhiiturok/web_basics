@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+h1, h2 {
+   font-family: 'Cormorant Infant', serif;
+   letter-spacing: 0.5px;
+    color: black;
+    text-transform: capitalize;
+    font-size: 32px;
+}
+h2 {
+    font-size: 26px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+p.double-line {
+    line-height: 2;
+}
+div.mail-box {
+    width: 150px;
+    max-width: 150px;
+    background-color: #E3FFF6;
+    border: 5px solid #C2E4C2;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+    word-break: break-word; 
+    white-space: normal;
+}
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #777;
+  box-sizing: border-box;
+  text-align: justify;
+}
+ .our-adv {
+background-image: url('http://picsum.photos/id/357/700/400?blur=5');
+padding-top: 30px; 
+padding-bottom: 60px; 
+color: black; 
+font-size: 16px;
+background-repeat: no-repeat;
+background-position: center center; 
+background-size: cover;
+ }
+
+ .ruler {
+  width: 150px;
+  background-color: lime;
+  text-align: center;
+ }
